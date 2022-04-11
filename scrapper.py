@@ -1,7 +1,6 @@
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
-# pip install webdriver-manager
 
 #  PLEASE dont use this programme if you have covid symptoms or you had close contact with a person with covid!
 def ucampus_scrapper(username, password, day="today"):
