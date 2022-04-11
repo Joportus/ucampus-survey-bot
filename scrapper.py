@@ -2,7 +2,7 @@ from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 import time
 
-#  PLEASE dont use this programme if you have covid symptoms or you had close contact with a person with covid!
+#  PLEASE dont use this program if you have covid symptoms or you had close contact with a person with covid!
 def ucampus_scrapper(username, password, day="today"):
     """
     Receives username and password for Ucampus, the day when you are going to the university (today or tomorrow) 
